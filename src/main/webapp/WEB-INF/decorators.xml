@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/JSP/template">
+    <decorator name="admin" page="admin.jsp">
+        <pattern>
+            /admin/*
+        </pattern>
+    </decorator>
+    <decorator name="guest" page="guest.jsp">
+        <pattern>
+            /guest/*
+        </pattern>
+    </decorator>
+    <decorator name="common" page="common.jsp">
+        <pattern>
+            /*
+        </pattern>
+    </decorator>
+</decorators>
+

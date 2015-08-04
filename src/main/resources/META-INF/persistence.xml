@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="restaurant" transaction-type="RESOURCE_LOCAL">
+
+        <class>ua.george_nika.restaurant.entity.AccountEntity</class>
+
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/restaurant"/>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="restaurant_owner"/>
+            <property name="javax.persistence.jdbc.password" value="Htc1fhfy"/>
+            <property name="hibernate.dialect" 		value="org.hibernate.dialect.PostgreSQL82Dialect" />
+        </properties>
+
+    </persistence-unit>
+
+</persistence>

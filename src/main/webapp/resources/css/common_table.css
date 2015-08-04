@@ -1,0 +1,95 @@
+.common_table {
+    padding:0px;
+    margin-top: 5px;
+    width:100%;
+    border:1px solid #0062f5;
+
+    font-family:Arial,sans-serif;
+    font-size:14px;
+
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+}
+.common_table table{
+     border-collapse: collapse;
+     border-spacing: 0;
+     width:100%;
+     margin:0px;
+     padding:0px;
+}
+.common_table tr:last-child td:last-child {
+      -moz-border-radius-bottomright:4px;
+      -webkit-border-bottom-right-radius:4px;
+      border-bottom-right-radius:4px;
+}
+.common_table table tr:first-child td:first-child {
+    -moz-border-radius-topleft:4px;
+    -webkit-border-top-left-radius:4px;
+    border-top-left-radius:4px;
+}
+.common_table table tr:first-child td:last-child {
+    -moz-border-radius-topright:4px;
+    -webkit-border-top-right-radius:4px;
+    border-top-right-radius:4px;
+}
+.common_table tr:last-child td:first-child{
+     -moz-border-radius-bottomleft:4px;
+     -webkit-border-bottom-left-radius:4px;
+     border-bottom-left-radius:4px;
+}
+.common_table tr:hover td{
+      background-color:#c2daff;
+}
+.common_table td{
+    vertical-align:middle;
+    background-color:#ebf3ff;
+    border: solid #0062f5;
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+    padding:7px;
+    font-size:14px;
+    font-family:Arial,sans-serif;
+    font-weight:normal;
+    color:#000000;
+}
+.common_table tr:last-child td{
+     border-width:0px 1px 0px 0px;
+}
+.common_table tr td:last-child{
+      border-width:0px 0px 1px 0px;
+}
+.common_table tr:last-child td:last-child{
+       border-width:0px 0px 0px 0px;
+}
+.common_table tr:first-child td{
+    background-color:#4c93ff;
+    border: solid #0062f5;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:14px;
+    font-family:Arial,sans-serif;
+    font-weight:bold;
+    color:#ffffff;
+}
+.common_table tr:first-child:hover td{
+    background-color:#0062f5;
+}
+.common_table tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.common_table tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}
+
+.common_table_active_account{
+    height: 2.0em;
+    width: 2.0em;
+}
+
+.common_table_active_email{
+    height: 1.0em;
+    width: 1.0em;
+}
+
+
